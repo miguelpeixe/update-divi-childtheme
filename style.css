@@ -1,0 +1,12 @@
+/*
+Theme Name: Update Divi Child Theme
+Theme URI: https://github.com/updatepolitics/update-divi-childtheme
+Description: Divi child theme for Instituto Update
+Author URI: https://github.com/miguelpeixe
+Template: Divi
+Version: 0.0.1
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Play','Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+}
