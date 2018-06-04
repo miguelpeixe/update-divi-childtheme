@@ -7,6 +7,13 @@ Template: Divi
 Version: 0.0.1
 */
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Play','Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+#main-header,
+#et-top-navigation,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Play", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
 }
