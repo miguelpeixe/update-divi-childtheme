@@ -17,3 +17,33 @@ h5,
 h6 {
   font-family: "Play", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
 }
+
+strong {
+  color: #000;
+  background-color: #fffede;
+  padding: 0.3rem;
+}
+
+body #page-container .et_pb_button,
+.woocommerce a.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce button.button,
+.woocommerce-page button.button,
+.woocommerce input.button,
+.woocommerce-page input.button,
+.woocommerce #respond input#submit,
+.woocommerce-page #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page #content input.button {
+  font-family: "Play", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
+}
