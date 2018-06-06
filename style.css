@@ -15,7 +15,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Play", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Playfair Display", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 900;
 }
 
 strong {
