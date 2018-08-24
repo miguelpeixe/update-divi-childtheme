@@ -48,3 +48,12 @@ body #page-container .et_pb_button,
 .woocommerce-page #content input.button {
   font-family: "Play", "Source Sans Pro", Helvetica, Arial, Lucida, sans-serif;
 }
+
+@media (min-width: 981px) {
+	.et_vertical_nav #page-container #main-header {
+		width: 300px;
+	}
+	.et_vertical_nav #et-main-area, .et_vertical_nav #top-header {
+		margin-left: 300px !important;
+	}
+}
