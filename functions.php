@@ -11,7 +11,7 @@ add_action( 'wp_enqueue_scripts', 'update_theme_enqueue_scripts' );
 function update_header_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => 'Header sidebar',
+		'name'          => __('Header sidebar', 'update-divi-childtheme'),
 		'id'            => 'header_sidebar_1',
 		'before_widget' => '<div id="%1$s" class="widget-item %2$s">',
 		'after_widget'  => '</div>',
@@ -40,7 +40,7 @@ function update_newsletter_form() {
     <div id="update-newsletter-form" class="update-newsletter-form-container">
       <div class="update-newsletter-form">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/news_bg_.png" class="bg-img" />
-        <h2>Receba nossa newsletter sobre inovação política</h2>
+        <h2><?php _e('Receba nossa newsletter sobre inovação política', 'update-divi-childtheme'); ?></h2>
         <?php echo do_shortcode( '[mc4wp_form]' ); ?>
       </div>
     </div>
