@@ -40,7 +40,7 @@ function update_newsletter_form() {
     <div id="update-newsletter-form" class="update-newsletter-form-container">
       <div class="update-newsletter-form">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/news_bg_.png" class="bg-img" />
-        <h2><?php _e('Subscribe to our newsletter about political innovation', 'update-divi-childtheme'); ?></h2>
+        <h2><?php _e('Subscribe to our political innovation newsletter', 'update-divi-childtheme'); ?></h2>
         <?php echo do_shortcode( '[mc4wp_form]' ); ?>
       </div>
     </div>
