@@ -277,3 +277,8 @@ table.basic td {
   font-weight: 800;
   line-height: 1;
 }
+
+.footer-widget {
+  color: #666;
+  font-size: .8em;
+}
