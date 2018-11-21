@@ -282,3 +282,7 @@ table.basic td {
   color: #666 !important;
   font-size: .8em;
 }
+
+.footer-widget a {
+  color: #333 !important;
+}
