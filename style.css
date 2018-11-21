@@ -279,6 +279,6 @@ table.basic td {
 }
 
 .footer-widget {
-  color: #666;
+  color: #666 !important;
   font-size: .8em;
 }
