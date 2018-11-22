@@ -63,6 +63,7 @@
       case "es":
       case "es-ES":
         placeholders = ["Nombre", "Email", "Subscribirse"];
+        break;
       default:
         placeholders = ["Name", "Email address", "Subscribe"];
     }
