@@ -49,4 +49,28 @@
       });
     });
   });
+
+  // Hard translate newsletter form
+  $(document).ready(function() {
+    var lang = $("html").attr("lang");
+    var placeholders = [];
+    switch (lang) {
+      case "pt-BR":
+      case "pt":
+      case "pt-PT":
+        placeholders = ["Nome", "Endereço", "Assinar"];
+        break;
+      case "es":
+      case "es-ES":
+        placeholders = ["Nombre", "Email", "Subscribirse"];
+      default:
+        placeholders = ["Name", "Address", "Subscribe"];
+    }
+    $("#update-newsletter-form").each(function() {
+      var $node = $(this);
+      $node.find('input[name="NOME"]').attr("placeholder", placeholders[0]);
+      $node.find('input[name="EMAIL"]').attr("placeholder", placeholders[1]);
+      $node.find('input[type="submit"]').attr("placeholder", placeholders[2]);
+    });
+  });
 })(jQuery);
