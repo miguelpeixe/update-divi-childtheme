@@ -64,13 +64,13 @@
       case "es-ES":
         placeholders = ["Nombre", "Email", "Subscribirse"];
       default:
-        placeholders = ["Name", "Address", "Subscribe"];
+        placeholders = ["Name", "Email address", "Subscribe"];
     }
     $("#update-newsletter-form").each(function() {
       var $node = $(this);
       $node.find('input[name="NOME"]').attr("placeholder", placeholders[0]);
       $node.find('input[name="EMAIL"]').attr("placeholder", placeholders[1]);
-      $node.find('input[type="submit"]').attr("placeholder", placeholders[2]);
+      $node.find('input[type="submit"]').attr("value", placeholders[2]);
     });
   });
 })(jQuery);
